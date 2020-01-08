@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18833" started-at="2020-01-07T09:15:18 IST" finished-at="2020-01-07T09:15:37 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18833" started-at="2020-01-07T09:15:18 IST" finished-at="2020-01-07T09:15:37 IST">
+      <class name="testCases.Sikulidemo">
+        <test-method status="PASS" signature="fbLogin()[pri:0, instance:testCases.Sikulidemo@2b552920]" name="fbLogin" duration-ms="18773" started-at="2020-01-07T09:15:18 IST" finished-at="2020-01-07T09:15:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fbLogin -->
+      </class> <!-- testCases.Sikulidemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
