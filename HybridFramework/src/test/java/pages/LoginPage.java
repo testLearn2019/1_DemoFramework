@@ -18,7 +18,7 @@ public class LoginPage {
 		reuse.getScreenshot(driver,"invalidCrendentials");
 		driver.findElement(By.id(reuse.readProperties("submitButton"))).click();
 		
-		System.out.println("Login successful");
+		//System.out.println("Login successful");
 	}
 
 }
