@@ -17,7 +17,8 @@ public class LoginPage {
 		driver.findElement(By.id(reuse.readProperties("password"))).sendKeys(reuse.readExcel(0, 1));
 		reuse.getScreenshot(driver,"invalidCrendentials");
 		driver.findElement(By.id(reuse.readProperties("submitButton"))).click();
-		reuse.getScreenshot(driver, "invalidCrendentialsResult");
+		
+		System.out.println("Login successful");
 	}
 
 }
